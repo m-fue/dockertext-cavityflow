@@ -1,3 +1,3 @@
-FROM ubuntu:16.04
+FROM centos:7
 
-ADD http://www.wings.msn.to/index.php /docker_dir/web/
+RUN yum install -y nginx
